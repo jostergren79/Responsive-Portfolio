@@ -215,3 +215,53 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+
+body {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+head {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+}
+
+@media screen and (max-width: 768px){
+  body {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+  
+  head {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
+@media screen and (max-width: 648px){
+
+  body {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+  
+  head {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
