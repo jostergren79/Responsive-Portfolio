@@ -176,6 +176,23 @@ h3, h2 {
   margin-right: 25px;
 }
 
+/* adding hover styling */
+
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+nav a:hover {
+  color: #5e7f7e;
+}
+
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
 /* contact page */
 
 #contact-form ul {
