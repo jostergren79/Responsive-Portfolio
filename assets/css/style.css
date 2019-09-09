@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/slatebackground.jpg");
 }
 
 * {
@@ -35,8 +35,10 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: grey;
 }
+
+
 
 h1 {
   padding-bottom: 20px;
@@ -58,12 +60,12 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
+  color: black;
+  background: lightgrey;
   border-bottom: 2px solid #cccccc;
 }
 
-#logo {
+/* #logo { **commenting out logo 
   float: left;
   width: 250px;
   height: 90px;
@@ -75,11 +77,12 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
-}
+} */
 
 nav {
   float: right;
   margin-top: 25px;
+  align-content: center;
 }
 
 nav a {
@@ -105,8 +108,8 @@ footer {
   color: #ffffff;
   color: #cccccc;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: lightgrey;
+  border-top: 8px solid lightgrey;
   height: 50px;
 }
 
@@ -115,12 +118,13 @@ h3, h2 {
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
+  color: black;
 }
 
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 90px;
   min-height: calc(100vh - 70px);
 }
 
