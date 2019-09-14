@@ -14,7 +14,10 @@ body {
 }
 
 * {
+  target-name: new;
+  target-new: tab;
   box-sizing: border-box;
+
 }
 
 /* general */
@@ -35,7 +38,8 @@ h1,
 h2,
 h3,
 p {
-  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
   margin-bottom: 20px;
 }
 
@@ -118,7 +122,8 @@ footer {
   opacity: .8;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -252,89 +257,94 @@ input[type=submit] {
     padding-right: 10px;
 
   }
+
   #masthead {
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
-  
+
   }
+
   #main-container {
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
 
   }
+
   .container {
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-@media screen and (max-width: 768px){
-  
-  body {
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+  @media screen and (max-width: 768px) {
 
-  }
-  #masthead {
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-  
-  }
-  #main-container {
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+    body {
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
 
-  }
-  .container {
-  position: relative;
-  padding-left: 10px;
-  padding-right: 10px;
+    }
 
-  }
+    #masthead {
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+
+    #main-container {
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+
+    .container {
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
 
 
-@media screen and (max-width: 648px){
+    @media screen and (max-width: 648px) {
 
- 
-  #logo {
-    text-align: center;
-    width: 100%;
-    position: static;
-  }
 
-  body {
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+      #logo {
+        text-align: center;
+        width: 100%;
+        position: static;
+      }
 
-  }
+      body {
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
 
-  #masthead {
-    text-align: center;
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-  
-  }
-  
-  #main-section {
-    text-align: center;
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-  
-  }
-  .container {
-    text-align: center;
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+      }
 
-  }
-  
-  
+      #masthead {
+        text-align: center;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+
+      }
+
+      #main-section {
+        text-align: center;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+
+      }
+
+      .container {
+        text-align: center;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+
+      }
