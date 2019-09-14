@@ -6,6 +6,13 @@ body {
   background: url("../images/slatebackground.jpg");
 }
 
+.auth-image:onhover {
+  size: 400%;
+  opacity: .9;
+  background: grey;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19,10 +26,16 @@ body {
   clear: both;
 }
 
+#contactme {
+  margin-left: 6px;
+  padding-left: 6px;
+}
+
 h1,
 h2,
 h3,
 p {
+  
   margin-bottom: 20px;
 }
 
@@ -65,23 +78,10 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: black;
-  background: lightgrey;
+  background: darkslategray;
   border-bottom: 2px solid #cccccc;
+  opacity: .8;
 }
-
-/* #logo { **commenting out logo 
-  float: left;
-  width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  background: #4aaaa5;
-} */
 
 nav {
   float: right;
@@ -94,7 +94,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: lightgrey;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -112,9 +112,10 @@ footer {
   color: #ffffff;
   color: #cccccc;
   text-align: center;
-  background: lightgrey;
+  background: darkslategray;
   border-top: 8px solid lightgrey;
   height: 50px;
+  opacity: .8;
 }
 
 h3, h2 {
@@ -140,6 +141,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  opacity: .9;
 }
 
 /* portfolio page */
